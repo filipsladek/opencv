@@ -5,7 +5,7 @@ if(NOT OCV_DEPENDENCIES_FOUND)
    return()
 endif()
 
-project(annotation)
+project(annotation)a
 set(the_target opencv_annotation)
 
 ocv_target_include_directories(${the_target} PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}" "${OpenCV_SOURCE_DIR}/include/opencv")
